@@ -1,0 +1,976 @@
+/*
+
+This css file is only for mobile version. The other screen sizes for tablet and web you can find in the mobileWeb.css
+
+1. MEDIA FOR SCREEN AND MAX-DEVICE-WIDTH: 325px
+2. Media for MIN-DEVICE-WIDTH: 325px AND MAX-WIDTH 400px
+3. MEDIA FOR MIN-DEVICE-WIDTH: 400px AND MAX-WIDTH: 767px
+4. MEDIA FOR MIN-DEVICE-WIDTH: 768px AND MAX-WIDTH: 991px
+
+*/
+
+/*---------- 1. MEDIA FOR SCREEN AND MAX-DEVICE-WIDTH: 325px ----------*/
+@media only screen and (max-device-width: 325px) {
+  #headerS {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 0%;
+    display: inline-flex;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  #headerL, 
+  #headerXL,
+  #headerLaptop,
+  #headerTablet {
+    display: none;
+  }
+  #footerS {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 0%;
+    display: inline-flex;
+    margin-left: 0%;
+    
+  }
+  #footerXL,
+  #footerL,
+  #footerTablet,
+  #footerLaptop {
+    display: none;
+  }
+
+  .top-navigation{
+    width: 100%;
+    margin-left: 0%;
+  }
+ 
+  .filters{
+    width: 100%;
+  }
+
+  #filters-logo-collapse{
+    width: 142px;
+    height: 46px;
+    border: 1px solid black;
+    font-size: 14px;
+    display: inline-flex;
+    font-weight: 550;
+    border: 1px solid #000;
+    margin-top: 17%;
+    font-family: "Trebuchet Ms", sans-serif;
+    padding: 13px 7px 0px ;
+    margin-left: 2%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_right_48px-128.png) 96% / 15% no-repeat;
+  }
+
+  #filters-title{
+    display: none;
+  }
+
+  .products-left-side{
+    width: 100%;
+    margin-top: -28%;
+    position: absolute;
+    margin-left: -21.5%;
+  }
+
+  .product-box{
+    width: 97%;
+  }
+
+  .products-right-side{
+    width: none;
+    margin-right: 25%;
+    margin-top: -19.5%;
+  }
+
+  .styled-select{
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .custom-select{
+    width: 146px;
+    height: 46px;
+    border: 1px solid black;
+    font-size: 14px;
+     border-radius: 0px;
+    position: relative;
+  }
+
+  .filters-collapse{
+    display: none;
+  }
+
+  #nav-text{
+    font-size: 12px;
+  }
+
+  .cancel-buttons{
+    margin-top: -0.5%;
+    margin-bottom: 4%;
+    width: 100%;
+    margin-left: -26%;
+  }
+
+  #nike-cancel,
+  #sleeve-cancel{
+    display: inline-block;
+  }
+
+  #sleeve-cancel{
+    display: none;
+  }
+
+  .column{
+    width: 50%;
+    padding:4px;
+    margin-left: 0px;
+  }
+
+  .row{
+    margin-top: 0%;
+    margin-right: -4px;
+    margin-left: -40.7px;
+  }
+
+  .products-content{
+    width: 100%;
+    margin-bottom: 12%;
+  }
+
+    .products-content:hover{
+      position: inherit;
+      background-color: unset;
+      border: none;
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-top: 0px;
+      margin-top: 0%;
+      margin-left: 0%;
+    }
+
+  .products-content:hover #discount-tag{
+   display: none;
+  }
+
+  .products-content:hover .colors-and-logo{
+    display: unset;
+  }
+
+  .products-content:hover .image-carousel{
+    display: none;
+  }
+
+  .products-content:hover .productTitle{
+    width: unset;
+  }
+
+  .products-content:hover .football-promotionboxes{
+    display: none;
+  }
+
+  .gallery-item{
+    width: 160px;
+    height: 160px;
+    padding: 1px;
+  }
+
+  #discount-tag{
+    position: relative;
+    font-size: 13px;
+    margin-top: -95%;
+    background-color: yellow;
+    width: 30%;
+  }
+
+  .column #gallery-image{
+    width: 160px;
+    height: 160px;
+  }
+
+  .image-description{
+    width: 100%;
+  }
+
+  .colors-and-logo{
+    width: 100%;
+    margin-top: 0%;
+  }
+
+  #numberOfColors{
+    width: 35%;
+    margin-left: 5%;
+  }
+
+  .product-logo{
+    width: 20%;
+    margin-right: -3%;
+  }
+
+  #logo-size{
+    width: 25px;
+    height: 8.75px;
+  }
+
+  .productTitle{
+    width: 100%;
+    padding-top: 4%;
+    margin-left: 5%;
+    border-top: none;
+  }
+
+  #product-price{
+    margin-left: 5%;
+  }
+
+  #new-price,
+  #old-price{
+    font-size: 13px;
+  }
+
+  #saving-price{
+    margin-left: 5%;
+    font-size: 11px;
+  }
+
+  .price-wrap-2-2{
+    margin-left: 72%;
+  }
+}
+/*---------- END OF 1. MEDIA FOR SCREEN AND MAX-DEVICE-WIDTH: 325px ----------*/
+
+
+/*------------ 2. Media for MIN-DEVICE-WIDTH: 325px AND MAX-WIDTH 400px--------------*/
+@media (min-device-width: 325px) and (max-width: 400px) {
+
+  #headerS {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 0%;
+    display: inline-flex;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  #headerL, 
+  #headerXL,
+  #headerLaptop,
+  #headerTablet {
+    display: none;
+  }
+  #footerS {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 0%;
+    display: inline-flex;
+    margin-left: 0%;
+    
+  }
+  #footerXL,
+  #footerL,
+  #footerTablet,
+  #footerLaptop {
+    display: none;
+  }
+  .top-navigation{
+    width: 100%;
+    margin-left: 0%;
+  }
+ 
+  .filters{
+    width: 100%;
+  }
+
+  #filters-logo-collapse{
+    width: 165px;
+    height: 46px;
+    border: 1px solid black;
+    font-size: 14px;
+    display: inline-flex;
+    font-weight: 550;
+    border: 1px solid #000;
+    margin-top: 12%;
+    font-family: "Trebuchet Ms", sans-serif;
+    padding: 13px 7px 0px ;
+    margin-left: 2%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_right_48px-128.png) 96% / 15% no-repeat;
+  }
+
+  #filters-title{
+    display: none;
+  }
+
+  .products-left-side{
+    width: 100%;
+    margin-top: -23%;
+    position: absolute;
+    margin-left: -21.5%;
+  }
+
+  .products-right-side{
+    width: none;
+    margin-right: 25%;
+    margin-top: -16.5%;
+  }
+
+  .styled-select{
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .product-box{
+    width: 97%;
+  }
+
+  .custom-select{
+    width: 168px;
+    height: 46px;
+    border: 1px solid black;
+    font-size: 14px;
+     border-radius: 0px;
+    position: relative;
+  }
+
+  .filters-collapse{
+    display: none;
+  }
+
+  #nav-text{
+    font-size: 12px;
+  }
+
+  .cancel-buttons{
+    margin-top: -2.5%;
+    margin-bottom: 4%;
+    width: 100%;
+    margin-left: -26%;
+  }
+
+  #nike-cancel,
+  #sleeve-cancel{
+    display: inline-block;
+  }
+
+  #sleeve-cancel{
+    display: none;
+  }
+
+  .column{
+    width: 50%;
+    padding:4px;
+    margin-left: 0px;
+  }
+
+  .row{
+    margin-top: 0%;
+    margin-right: -4px;
+    margin-left: -48.7px;
+  }
+
+  .products-content{
+    width: 100%;
+    margin-bottom: 12%;
+  }
+
+    .products-content:hover{
+      position: inherit;
+      background-color: unset;
+      border: none;
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-top: 0px;
+      margin-top: 0%;
+      margin-left: 0%;
+    }
+
+  .products-content:hover #discount-tag{
+    display: none;
+  }
+
+  .products-content:hover .football-promotionboxes{
+    display: none;
+  }
+
+  .products-content:hover .colors-and-logo{
+    display: unset;
+  }
+
+  .products-content:hover .image-carousel{
+    display: none;
+  }
+
+  .products-content:hover .productTitle{
+    width: unset;
+  }
+
+  .gallery-item{
+    width: 190px;
+    height: 190px;
+    padding: 1px;
+  }
+
+  #discount-tag{
+     position: relative;
+    font-size: 14px;
+    margin-top: -95%;
+    background-color: yellow;
+    width: 28%;
+  }
+
+  .column #gallery-image{
+    width: 190px;
+    height: 190px;
+  }
+
+  .image-description{
+    width: 100%;
+  }
+
+  .colors-and-logo{
+    width: 100%;
+    margin-top: 0%;
+  }
+
+  #numberOfColors{
+    width: 35%;
+    margin-left: 5%;
+  }
+
+  .product-logo{
+    width: 20%;
+    margin-right: -3%;
+  }
+
+  #logo-size{
+    width: 25px;
+    height: 8.75px;
+  }
+
+  .productTitle{
+    width: 100%;
+    padding-top: 4%;
+    margin-left: 5%;
+    border-top: none;
+  }
+
+  #product-price{
+    margin-left: 5%;
+  }
+
+  #new-price,
+  #old-price{
+    font-size: 13px;
+  }
+
+  #saving-price{
+    margin-left: 5%;
+    font-size: 11px;
+  }
+
+  .price-wrap-2-2{
+    margin-left: 76%;
+  }
+
+
+}
+/*------------ END OF 2. Media for MIN-DEVICE-WIDTH: 325px AND MAX-WIDTH 400px--------------*/
+
+
+/*---------- 3. MEDIA FOR MIN-DEVICE-WIDTH: 400px AND MAX-WIDTH: 767px ----------*/
+@media (min-device-width: 400px) and (max-width: 767px) {
+  #headerS {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 0%;
+    display: inline-flex;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  #headerL, 
+  #headerXL,
+  #headerLaptop,
+  #headerTablet {
+    display: none;
+  }
+  #footerS {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 0%;
+    display: inline-flex;
+    margin-left: 0%;
+    
+  }
+  #footerXL,
+  #footerL,
+  #footerTablet,
+  #footerLaptop {
+    display: none;
+  }
+  
+.top-navigation{
+    width: 100%;
+    margin-left: 0%;
+  }
+ 
+  .filters{
+    width: 100%;
+  }
+
+  #filters-logo-collapse{
+    width: 191px;
+    height: 46px;
+    border: 1px solid black;
+    font-size: 16px;
+    display: inline-flex;
+    font-weight: 550;
+    border: 1px solid #000;
+    margin-top: 10%;
+    font-family: "Trebuchet Ms", sans-serif;
+    padding: 13px 7px 0px ;
+    margin-left: 1%;
+    -webkit-appearance: none;
+    position: relative;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_right_48px-128.png) 96% / 15% no-repeat;
+  }
+
+  #filters-title{
+    display: none;
+  }
+
+  .products-left-side{
+    width: 100%;
+    margin-top: -20%;
+    position: absolute;
+    margin-left: -22.5%;
+  }
+
+  .products-right-side{
+    width: none;
+    margin-right: 25%;
+    margin-top: -15.1%;
+  }
+
+  .product-box{
+    width: 97%;
+  }
+
+  .styled-select{
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .custom-select{
+    width: 195px;
+    height: 46px;
+    border: 1px solid black;
+    font-size: 16px;
+    border-radius: 0px;
+    position: relative;
+  }
+
+  .filters-collapse{
+    display: none;
+  }
+
+  #nav-text{
+    font-size: 12px;
+  }
+
+  .cancel-buttons{
+    margin-top: -2.5%;
+    margin-bottom: 4%;
+    width: 100%;
+    margin-left: -28%;
+  }
+
+  #nike-cancel,
+  #sleeve-cancel{
+    display: inline-block;
+  }
+
+  #sleeve-cancel{
+    display: none;
+  }
+
+  .column{
+    width: 50%;
+    padding:6px;
+    margin-left: 0px;
+  }
+
+  .row{
+    margin-top: 0%;
+    margin-right: -6px;
+    margin-left: -54.7px;
+  }
+
+  .products-content{
+    width: 100%;
+    margin-bottom: 12%;
+  }
+
+    .products-content:hover{
+      position: inherit;
+      background-color: unset;
+      border: none;
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-top: 0px;
+      margin-top: 0%;
+      margin-left: 0%;
+    }
+
+  .products-content:hover #discount-tag{
+   display: none;
+  }
+
+  .products-content:hover .colors-and-logo{
+    display: unset;
+  }
+
+.products-content:hover .football-promotionboxes{
+    display: none;
+  }
+
+  .products-content:hover .image-carousel{
+    display: none;
+  }
+
+  .products-content:hover .productTitle{
+    width: unset;
+  }
+
+  .gallery-item{
+    width: 213px;
+    height: 213px;
+    padding: 0px;
+  }
+
+  #discount-tag{
+     position: relative;
+    font-size: 15px;
+    margin-top: -95%;
+    background-color: yellow;
+    width: 25%;
+  }
+
+  .column #gallery-image{
+    width: 213px;
+    height: 213px;
+  }
+
+  .image-description{
+    width: 100%;
+  }
+
+  .colors-and-logo{
+    width: 100%;
+    margin-top: 0%;
+  }
+
+  #numberOfColors{
+    width: 35%;
+    margin-left: 5%;
+  }
+
+  .product-logo{
+    width: 20%;
+    margin-right: -3%;
+  }
+
+  #logo-size{
+    width: 25px;
+    height: 8.75px;
+  }
+
+  .productTitle{
+    width: 100%;
+    padding-top: 4%;
+    margin-left: 5%;
+    border-top: none;
+  }
+
+  #product-price{
+    margin-left: 5%;
+  }
+
+  #new-price,
+  #old-price{
+    font-size: 13px;
+  }
+
+  #saving-price{
+    margin-left: 5%;
+    font-size: 11px;
+  }
+
+  .price-wrap-2-2{
+    margin-left: 79%;
+  }
+}
+/*---------- END OF 3. MEDIA FOR MIN-DEVICE-WIDTH: 400px AND MAX-WIDTH: 767px ----------*/
+
+/*---------- 4. MEDIA FOR MIN-DEVICE-WIDTH: 768px AND MAX-WIDTH: 991px ----------*/
+@media (min-device-width: 768px) and (max-width: 991px) {
+  #headerTablet {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 0%;
+    display: inline-flex;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+  #headerS,
+  #headerL,
+  #headerLaptop,
+  #headerXL {
+    display: none;
+  }
+  #footerTablet {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 0%;
+    display: inline-flex;
+    margin-left: 0%;
+  }
+  #footerS,
+  #footerL,
+  #footerLaptop,
+  #footerXL {
+    display: none;
+  }
+
+  .top-navigation{
+    width: 100%;
+    margin-left: 0%;
+  }
+ 
+  .filters{
+    width: 100%;
+  }
+
+  #filters-logo-collapse{
+    width: 360px;
+    height: 46px;
+    border: 1px solid black;
+    font-size: 16px;
+    display: inline-flex;
+    font-weight: 550;
+    border: 1px solid #000;
+    margin-top: 6%;
+    font-family: "Trebuchet Ms", sans-serif;
+    padding: 13px 7px 0px;
+    margin-left: 0%;
+    -webkit-appearance: none;
+    position: relative;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_right_48px-128.png) 96% / 9% no-repeat;
+  }
+
+  #filters-title{
+    display: none;
+  }
+
+  .products-left-side{
+    width: 100%;
+    margin-top: -12%;
+    position: absolute;
+    margin-left: -23.1%;
+  }
+
+  .products-right-side{
+    width: none;
+    margin-right: 25%;
+    margin-top: -8.2%;
+  }
+
+  .styled-select{
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .product-box{
+    width: 97%;
+  }
+
+  .products-content:hover .football-promotionboxes{
+    display: none;
+  }
+
+  .custom-select{
+    width: 360px;
+    height: 46px;
+    border: 1px solid black;
+    font-size: 16px;
+    border-radius: 0px;
+    position: relative;
+    background: url(https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-128.png) 96% / 9% no-repeat;
+  }
+
+
+  .filters-collapse{
+    display: none;
+  }
+
+  #nav-text{
+    font-size: 12px;
+  }
+
+  .cancel-buttons{
+    margin-top: -3.5%;
+    margin-bottom: 3.5%;
+    width: 100%;
+    margin-left: -29.7%;
+  }
+
+  #nike-cancel,
+  #sleeve-cancel{
+    display: inline-block;
+  }
+
+  #sleeve-cancel{
+    display: none;
+  }
+
+  .column{
+    width: 24.4%;
+    padding:3px;
+    margin-left: 3px;
+  }
+
+  .row{
+    margin-top: 0%;
+    margin-right: -3.1%;
+    margin-left: -16.2%;
+  }
+
+  .products-content{
+    width: 100%;
+    margin-bottom: 12%;
+  }
+
+    .products-content:hover{
+      position: inherit;
+      background-color: unset;
+      border: none;
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-top: 0px;
+      margin-top: 0%;
+      margin-left: 0%;
+    }
+
+  .products-content:hover #discount-tag{
+    display: none;
+  }
+
+  .products-content:hover .colors-and-logo{
+    display: unset;
+  }
+
+  .products-content:hover .image-carousel{
+    display: none;
+  }
+
+  .products-content:hover .productTitle{
+    width: unset;
+  }
+
+  .gallery-item{
+    width: 190px;
+    height: 190px;
+    padding: 0px;
+  }
+/*---------- changed ------------*/
+  
+  #discount-tag{
+    position: relative;
+    font-size: 15px;
+    margin-top: -95%;
+    background-color: yellow;
+    width: 28%;
+  }
+
+  .column #gallery-image{
+    width: 190px;
+    height: 190px;
+  }
+
+  .image-description{
+    width: 100%;
+  }
+
+  .colors-and-logo{
+    width: 100%;
+    margin-top: 0%;
+  }
+
+  #numberOfColors{
+    width: 35%;
+    margin-left: 5%;
+  }
+
+  .product-logo{
+    width: 20%;
+    margin-right: -3%;
+  }
+
+  #logo-size{
+    width: 25px;
+    height: 8.75px;
+  }
+
+  .productTitle{
+    width: 100%;
+    padding-top: 4%;
+    margin-left: 5%;
+    border-top: none;
+  }
+
+  #product-price{
+    margin-left: 5%;
+  }
+
+  #new-price,
+  #old-price{
+    font-size: 13px;
+  }
+
+  #saving-price{
+    margin-left: 5%;
+    font-size: 11px;
+  }
+
+   .price-wrap-2-2{
+    margin-left: 87%;
+  }
+
+}
+/*---------- END OF 4. MEDIA FOR MIN-DEVICE-WIDTH: 768px AND MAX-WIDTH: 991px ----------*/
